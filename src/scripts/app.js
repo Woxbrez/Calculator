@@ -36,7 +36,7 @@ new Vue({
                         array.splice(i, 1);
                         i = 0;
                         break;
-                    case "*":
+                    case "x":
                         array[i] = array[i-1]  *  array[i+1];
                         array.splice(i-1, 1);
                         array.splice(i, 1);
@@ -74,7 +74,12 @@ new Vue({
             this.expression = array[0];
         },
         addExpression: function(c){
-            this.expression +=  c;
+            let aux = this.expression.toString();
+            let array = aux.split(" ");
+            aux = array[array.length-1];
+            if(aux.length < 8){
+                this.expression +=  c;
+            }
         },
         addOperator: function(c){
             let aux = this.expression.toString();
