@@ -1,0 +1,90 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #group{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .group-n{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #r{
+      margin:20px;
+      float: right;
+  }
+
+  #expression{
+      float: right;
+      margin-right: 30px;
+  }
+
+  #numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .n:hover{
+    background: #DFF2EF;
+  }
+  
+  .n{
+    width: 95px;
+    height: 95px;
+    background-color: #AEBFBC;
+    border-radius: 10px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px; 
+       
+    cursor: pointer;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  #tela{
+      background-color: #AEBFBC;
+      width: 525px;
+      height: 200px;
+      border-radius: 20px;
+  
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-around;
+  }
+  
+  #box{
+      background-color: #243540;
+      width: 600px;
+      height: 800px;
+      border-radius: 30px;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }

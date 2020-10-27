@@ -1,0 +1,46 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<link rel="stylesheet" href="../src/styles/general.css">
+
+<div id="app">
+    <div id="box"> 
+      <div id="tela">
+        <p id="r">{{ txtSupport }}</p> 
+        <h1 id="expression">{{ expression }}</h1> 
+      </div>
+      <div id="group">
+        <div id="numbers">
+          <div class="group-n">
+            <div v-on:click="clearExpression" class="n"> C </div>
+            <div class="n"> ... </div>
+            <div v-on:click="addOperator('%')" class="n"> % </div>
+            <div v-on:click="delExpression" class="n"> DEL </div>
+          </div>
+          <div class="group-n">
+            <div v-on:click="addExpression('1')" class="n"> 1 </div>
+            <div v-on:click="addExpression('2')" class="n"> 2 </div>
+            <div v-on:click="addExpression('3')" class="n"> 3 </div>
+             <div v-on:click="addOperator('/')" class="n"> / </div>
+          </div>
+          <div class="group-n">
+            <div v-on:click="addExpression('4')" class="n"> 4 </div>
+            <div v-on:click="addExpression('5')" class="n"> 5 </div>
+            <div v-on:click="addExpression('6')" class="n"> 6 </div>
+            <div v-on:click="addOperator('*')" class="n"> x </div>
+          </div>
+          <div class="group-n">
+            <div v-on:click="addExpression('7')" class="n"> 7 </div>
+            <div v-on:click="addExpression('8')" class="n"> 8 </div>
+            <div v-on:click="addExpression('9')" class="n"> 9 </div>
+            <div v-on:click="addOperator('-')" class="n"> - </div>
+          </div>
+          <div class="group-n">
+            <div v-on:click="addExpression('0')" class="n"> 0 </div>
+            <div v-on:click="addExpression('.')" class="n"> . </div>
+            <div v-on:click="resultExpression" class="n"> = </div>
+            <div v-on:click="addOperator('+')" class="n"> + </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+<script src="../src/scripts/app.js"></script>
