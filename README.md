@@ -1,4 +1,4 @@
-# Border-radius Previewer
+# Calculator
 
 Idea from [here](https://github.com/florinpop17/app-ideas)
 
