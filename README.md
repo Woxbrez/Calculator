@@ -4,13 +4,21 @@ Idea from [here](https://github.com/florinpop17/app-ideas)
 
 Demo [here](https://jsfiddle.net/npzvya06/)
 
-**Tier:** 1-Beginner
+## 🚀 Technology
+
+This project was developed with the following technologies:
+
+- [Css](https://www.w3schools.com/css/)
+- [Javascript](https://www.w3schools.com/js/)
+- [Vue.Js](https://vuejs.org/)
+
+**💻 Tier:** 1-Beginner
 
 Calculators are not only one of the most useful tools available, but they are also a great way to understand UI and event processing in an application. In this problem you will create a calculator that supports basic arithmetic calculations on integers.
 
 The styling is up to you so use your imagination and get creative! You might also find it worth your time to experiment with the calculator app on your mobile device to better understand basic functionality and edge cases.
 
-## User Stories
+## 🧠 User Stories
 
 - [x] ~User can see a display showing the current number entered or the result of the last operation.~
 - [x] ~User can see an entry pad containing buttons for the digits 0-9, operations - '+', '-', '/', and '=', a 'C' button (for clear), and an 'AC' button (for clear all).~
