@@ -12,7 +12,7 @@ This project was developed with the following technologies:
 - [Javascript](https://www.w3schools.com/js/)
 - [Vue.Js](https://vuejs.org/)
 
-**💻 Tier:** 1-Beginner
+##💻 **Tier:** 1-Beginner
 
 Calculators are not only one of the most useful tools available, but they are also a great way to understand UI and event processing in an application. In this problem you will create a calculator that supports basic arithmetic calculations on integers.
 
